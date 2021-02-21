@@ -17,12 +17,12 @@ The player is confined to the board, and may move horizontally or vertically ont
 This program use the graphic library **SDL 1.2** and his additional package **SDL image**
 
 ### Ubuntu:
-- sudo apt-get install libsdl-dev
-- sudo apt-get install libsdl-image1.2-dev
+- `sudo apt-get install libsdl-dev`
+- `sudo apt-get install libsdl-image1.2-dev`
 
 ### Mac OS:
-- brew install sdl
-- brew install sdl_image
+- `brew install sdl`
+- `brew install sdl_image`
 
 ## Compile
 - Run `make`
@@ -31,20 +31,22 @@ This program use the graphic library **SDL 1.2** and his additional package **SD
 - Execute `./Sokuban`
 
 ## Gameplay
-
 - **Arrows**: Move horizontally or verticaly into empty squares
 - **Esc**: Quit
 
 ![Gameplay](/ressources/gameplay.png)
 
-## Level Editor:
-
+## Level Editor
 - **Mouse Right  Click**: Make the mouse pointed square empty (you can hold click and slide in the window)
 - **Num 1**: Choose `Wall` spirit square
 - **Num 2**: Choose `Box` spirit square
 - **Num 3**: Choose `Storage location` spirit square
 - **Num 4**: Choose `Player` spirit square
 - **s**: Save the level
+
+## Owner
+- Oussama Belouche 1337
+
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
